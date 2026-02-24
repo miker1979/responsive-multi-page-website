@@ -21,15 +21,23 @@ You can view the live project here:
 
 ---
 
-## #️⃣ Academic Honors & Certifications
-* **🏆 President’s List (3.8-4.0 GPA)** | Grand Canyon University | Jan 2026
-* **📜 Undergraduate Certificate in Programming Essentials** | DeVry University | Feb 2024
-* **⭐ Dean’s List Achievement** | DeVry University | Spring, Summer, & Fall 2023
+# 🎓 Academic Honors & Technical Certifications
+
+### 🎖️ Undergraduate Certificate in Programming Essentials (WITH HONORS)
+**DeVry University | Awarded February 2024**
+* Achieved **Honors distinction** through mastery of foundational programming logic and development.
+* Demonstrated elite proficiency in software design and coding standards.
+
+### 🏆 President’s List (3.8 - 4.0 GPA)
+**Grand Canyon University | Recognized January 2026**
+* Maintained a near-perfect GPA in pursuit of a Bachelor of Science in Information Technology.
+* Recognized for "contributions in the classroom and quality of submitted work".
+
+### ⭐ Dean’s List Achievement
+**DeVry University | Consecutive Honors 2023**
+* Recognized for outstanding academic performance across Spring, Summer, and Fall sessions.
 
 ---
 
-## # Author: Mike Robinson
-**Software Development Student @ Grand Canyon University** **Professional Logistics Specialist (2001 - Present)**
-
----
-*Note: This project serves as a foundational portfolio piece demonstrating web development proficiency and a dedication to academic excellence.*
+# #️⃣ Author: Mike Robinson
+**Honors Graduate | President's List Student | Professional Logistics Specialist (2001 - Present)**
