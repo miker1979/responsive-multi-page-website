@@ -35,3 +35,13 @@ CST-120-Website/
 ├── tando.html       # Activity Matrix
 ├── css/             # Custom Stylesheets
 └── images/          # Optimized Media Assets
+
+🎓 Academic Honors & Certifications
+President’s List (3.8-4.0 GPA) | Grand Canyon University | Jan 2026
+
+Undergraduate Certificate in Programming Essentials | DeVry University | Feb 2024
+
+Dean’s List Achievement | DeVry University | Spring, Summer, & Fall 2023
+
+👤 Author
+Mike Robinson, Software Development Student @ Grand Canyon University, Professional Logistics Specialist (2001 - Present)
