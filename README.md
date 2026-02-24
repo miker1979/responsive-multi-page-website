@@ -1,43 +1,37 @@
-CST-120: Personal Website Project
-Overview
-This repository showcases my CST-120 course website, developed as a foundational project at Grand Canyon University. This project serves as a bridge between my 23-year career in professional logistics and my current path as a Software Development student.
+# CST-120: Personal Website Project
 
-I successfully applied core web technologies to design, structure, and deploy a functional multi-page site, demonstrating my commitment to the high academic standards that earned me a place on the President’s List (3.8-4.0 GPA).
-+4
+## 🌐 Overview
+This repository contains my personal website developed for the **CST-120 Introduction to Web Development** course at **Grand Canyon University**. This project represents my transition from a 23-year professional career in logistics to the field of Software Development. 
 
-Live Website
-🚀 View the Project Live: https://miker1979.github.io/CST-120-Website/
+My commitment to high achievement in this new path is reflected in my **President’s List (3.8-4.0 GPA)** distinction and my foundational training in programming logic.
 
-Technical Highlights
-Responsive Architecture: Built using Bootstrap 4.4 to ensure cross-device compatibility.
+---
 
-Dynamic Interactivity: Implemented jQuery for DOM manipulation and dynamic data table generation.
+## 🚀 Live Website
+You can view the live project here:  
+**[https://miker1979.github.io/CST-120-Website/](https://miker1979.github.io/CST-120-Website/)**
 
+---
 
-Programming Foundations: Leverages logic and structure learned during my Undergraduate Certificate in Programming Essentials from DeVry University.
-+3
+## 🛠️ Project Features & Technologies
+* **Multi-page Architecture:** Organized HTML5 structure with seamless internal navigation.
+* **Responsive UI:** Styled with **Bootstrap 4.4** for compatibility across all device sizes.
+* **Dynamic Logic:** Utilizes **jQuery** for DOM manipulation and dynamic table generation.
+* **Organized Assets:** Structured file management for CSS, images, and scripts.
 
-Deployment: Fully automated hosting via GitHub Pages.
+### Technologies Used:
+* **HTML5** & **CSS3**
+* **JavaScript** & **jQuery**
+* **Bootstrap 4.4**
+* **GitHub Pages** for deployment
 
-Folder Structure
-Plaintext
+---
+
+## 📁 Folder Structure
+```text
 CST-120-Website/
-│── index.html       # Home Page with Master Navbar
-│── playjq3.html     # jQuery Dynamic Table Demo
-│── playbs.html      # Bootstrap Component Showcase
-│── css/             # Custom Stylesheets
+├── index.html       # Home Page
+├── syllabus.html    # Course Syllabus Overview
+├── tando.html       # Activity Matrix
+├── css/             # Custom Stylesheets
 └── images/          # Optimized Media Assets
-Academic Honors
-My dedication to mastering these technologies is reflected in my consistent academic performance:
-
-President’s List (3.8-4.0 GPA) | Grand Canyon University | Jan 2026.
-+4
-
-Undergraduate Certificate in Programming Essentials | DeVry University | Feb 2024.
-+3
-
-Triple Dean’s List Honoree | DeVry University | Spring, Summer, and Fall 2023.
-+4
-
-Author
-Mike Robinson Software Development Student @ Grand Canyon University Professional Logistics Specialist (2001 - Present)
