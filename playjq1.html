@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play jQuery 1 | Intro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        // Step 1: Use jQuery to hide a paragraph when a button is clicked
+        $(document).ready(function(){
+            $("#hideBtn").click(function(){
+                $("p.test-text").hide(1000);
+            });
+            $("#showBtn").click(function(){
+                $("p.test-text").show(1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1>jQuery Intro</h1>
+        <p class="test-text lead">This text will disappear using jQuery!</p>
+        <button id="hideBtn" class="btn btn-danger">Hide Text</button>
+        <button id="showBtn" class="btn btn-success">Show Text</button>
+    </div>
+
+    </body>
+</html>

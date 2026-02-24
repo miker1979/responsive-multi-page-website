@@ -2,132 +2,182 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CST-120 Course Assignment Matrix</title>
- <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Bootstrap 4.4 CSS -->
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<h1 align="center">Course Assignment Matrix</h1>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">CST-120</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+      <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+      <li class="nav-item"><a class="nav-link" href="faith.html">Faith</a></li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+          Topic 6 Activities
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="playjq1.html">jQuery Intro</a>
+          <a class="dropdown-item" href="playjq2.html">jQuery Selectors</a>
+          <a class="dropdown-item" href="playjq3.html">Dynamic Table</a>
+          <a class="dropdown-item" href="playbs.html">Bootstrap Demo</a>
+        </div>
+      </li>
+      
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-<table class="matrix" id="assignments">
+<div class="container mt-4">
 
-<thead>
-<tr>
-<th>Assignment</th>
-<th>Week Due</th>
-<th>Points</th>
-</tr>
-</thead>
-<tbody>
+  <h1 class="text-center">Course Assignment Matrix</h1>
 
-  <tr>
-    <td>Milestone 1: Iteration 1 of Web Site</td>
-    <td align="center">2</td>
-    <td align="center">85</td>
-  </tr>
+  <div class="table-responsive mt-3">
+    <table class="table table-bordered table-striped" id="assignments">
 
-  <tr>
-    <td>Activity 1: Tools Install and Basic HTML</td>
-    <td align="center">2</td>
-    <td align="center">35</td>
-  </tr>
+      <thead class="thead-dark">
+        <tr>
+          <th>Assignment</th>
+          <th class="text-center">Week Due</th>
+          <th class="text-center">Points</th>
+        </tr>
+      </thead>
 
-  <tr>
-    <td>Milestone 2: Iteration 2 of Web Site</td>
-    <td align="center">4</td>
-    <td align="center">85</td>
-  </tr>
+      <tbody>
+        <tr>
+          <td>Milestone 1: Iteration 1 of Web Site</td>
+          <td class="text-center">2</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 2: Advanced HTML</td>
-    <td align="center">4</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 1: Tools Install and Basic HTML</td>
+          <td class="text-center">2</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Milestone 3: Iteration 3 of Web Site</td>
-    <td align="center">6</td>
-    <td align="center">85</td>
-  </tr>
+        <tr>
+          <td>Milestone 2: Iteration 2 of Web Site</td>
+          <td class="text-center">4</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 3: CSS</td>
-    <td align="center">6</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 2: Advanced HTML</td>
+          <td class="text-center">4</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Milestone 4: Iteration 4 of Web Site</td>
-    <td align="center">8</td>
-    <td align="center">85</td>
-  </tr>
+        <tr>
+          <td>Milestone 3: Iteration 3 of Web Site</td>
+          <td class="text-center">6</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 4: JavaScript</td>
-    <td align="center">8</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 3: CSS</td>
+          <td class="text-center">6</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Milestone 5: Iteration 5 of Web Site</td>
-    <td align="center">10</td>
-    <td align="center">85</td>
-  </tr>
+        <tr>
+          <td>Milestone 4: Iteration 4 of Web Site</td>
+          <td class="text-center">8</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 5: Advanced JavaScript</td>
-    <td align="center">10</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 4: JavaScript</td>
+          <td class="text-center">8</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Milestone 6: Iteration 6 of Web Site</td>
-    <td align="center">13</td>
-    <td align="center">85</td>
-  </tr>
+        <tr>
+          <td>Milestone 5: Iteration 5 of Web Site</td>
+          <td class="text-center">10</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 6: jQuery and Bootstrap</td>
-    <td align="center">13</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 5: Advanced JavaScript</td>
+          <td class="text-center">10</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Milestone 7: Final Web Site</td>
-    <td align="center">15</td>
-    <td align="center">85</td>
-  </tr>
+        <tr>
+          <td>Milestone 6: Iteration 6 of Web Site</td>
+          <td class="text-center">13</td>
+          <td class="text-center">85</td>
+        </tr>
 
-  <tr>
-    <td>Activity 7: HTML Forms Processing</td>
-    <td align="center">15</td>
-    <td align="center">35</td>
-  </tr>
+        <tr>
+          <td>Activity 6: jQuery and Bootstrap</td>
+          <td class="text-center">13</td>
+          <td class="text-center">35</td>
+        </tr>
 
-  <tr>
-    <td>Participation (10 points per week)</td>
-    <td align="center">1–15</td>
-    <td align="center">150</td>
-  </tr>
+        <tr>
+          <td>Milestone 7: Final Web Site</td>
+          <td class="text-center">15</td>
+          <td class="text-center">85</td>
+        </tr>
 
-<tr class="total-row">
-  <td>Total</td>
-  <td></td>
-  <td align="center">1000</td>
-</tr>
-</tbody>
+        <tr>
+          <td>Activity 7: HTML Forms Processing</td>
+          <td class="text-center">15</td>
+          <td class="text-center">35</td>
+        </tr>
 
-</table>
+        <tr>
+          <td>Participation (10 points per week)</td>
+          <td class="text-center">1–15</td>
+          <td class="text-center">150</td>
+        </tr>
 
-<p align="center">
-  <a href="index.html">Back to Main Page</a>
-</p>
+        <tr class="table-secondary">
+          <td><strong>Total</strong></td>
+          <td></td>
+          <td class="text-center"><strong>1000</strong></td>
+        </tr>
+      </tbody>
 
+    </table>
+  </div>
 
+  <div class="text-center mt-3">
+    <a class="btn btn-outline-primary mr-2" href="calculator.html">Open Calculator</a>
+    <a class="btn btn-outline-primary" href="index.html">Back to Main Page</a>
+  </div>
+
+</div>
+
+<!-- jQuery (Bootstrap 4 requires it) -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Popper (Bootstrap 4 requires it) -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap 4.4 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
-</html>
-
-
-  
+</html
