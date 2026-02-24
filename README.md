@@ -1,85 +1,43 @@
-# CST-120 Website Project
+CST-120: Personal Website Project
+Overview
+This repository showcases my CST-120 course website, developed as a foundational project at Grand Canyon University. This project serves as a bridge between my 23-year career in professional logistics and my current path as a Software Development student.
 
-## Overview
+I successfully applied core web technologies to design, structure, and deploy a functional multi-page site, demonstrating my commitment to the high academic standards that earned me a place on the President’s List (3.8-4.0 GPA).
++4
 
-This repository contains my CST-120 course website developed as part of my Introduction to Web Development coursework at Grand Canyon University. The site was built using foundational web technologies and published using GitHub Pages to demonstrate my ability to design, structure, and deploy a functional website.
+Live Website
+🚀 View the Project Live: https://miker1979.github.io/CST-120-Website/
 
-The purpose of this project was to practice creating webpages, linking content, organizing files, and applying basic styling while following course assignment requirements.
+Technical Highlights
+Responsive Architecture: Built using Bootstrap 4.4 to ensure cross-device compatibility.
 
----
+Dynamic Interactivity: Implemented jQuery for DOM manipulation and dynamic data table generation.
 
-## Live Website
 
-GitHub Pages URL:
-https://miker1979.github.io/CST-120-Website/
+Programming Foundations: Leverages logic and structure learned during my Undergraduate Certificate in Programming Essentials from DeVry University.
++3
 
----
+Deployment: Fully automated hosting via GitHub Pages.
 
-## Project Features
-
-* Multi-page website structure
-* Internal navigation links between pages
-* Course Assignment Matrix table
-* Images and media integration
-* External and internal hyperlinks
-* Basic CSS styling
-* Organized file and folder structure
-
----
-
-## Technologies Used
-
-* HTML5
-* CSS3
-* GitHub
-* GitHub Pages
-
----
-
-## Folder Structure
-
-```
+Folder Structure
+Plaintext
 CST-120-Website/
-│── index.html
-│── syllabus.html
-│── tando.html
-│── css/
-│    └── styles.css
-│── images/
-```
+│── index.html       # Home Page with Master Navbar
+│── playjq3.html     # jQuery Dynamic Table Demo
+│── playbs.html      # Bootstrap Component Showcase
+│── css/             # Custom Stylesheets
+└── images/          # Optimized Media Assets
+Academic Honors
+My dedication to mastering these technologies is reflected in my consistent academic performance:
 
----
+President’s List (3.8-4.0 GPA) | Grand Canyon University | Jan 2026.
++4
 
-## Learning Objectives
+Undergraduate Certificate in Programming Essentials | DeVry University | Feb 2024.
++3
 
-Through this project, I learned how to:
+Triple Dean’s List Honoree | DeVry University | Spring, Summer, and Fall 2023.
++4
 
-* Build structured HTML webpages
-* Create and format tables
-* Link multiple pages together
-* Apply CSS styling
-* Manage web project folders
-* Publish a live website using GitHub Pages
-
----
-
-## Future Improvements
-
-* Responsive mobile design
-* Advanced CSS layout (Flexbox/Grid)
-* JavaScript interactivity
-* Accessibility (ADA) enhancements
-
----
-
-## Author
-
-Mike Robinson
-Software Development Student
-Grand Canyon University
-
----
-
-## Notes
-
-This website was created for educational purposes as part of CST-120 coursework and serves as an early portfolio project demonstrating foundational web development skills.
+Author
+Mike Robinson Software Development Student @ Grand Canyon University Professional Logistics Specialist (2001 - Present)
