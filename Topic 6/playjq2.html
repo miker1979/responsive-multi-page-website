@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Play jQuery 2</title>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script>
+  // Create a JavaScript object
+  var User = {
+    firstName: "Mike",
+    lastName: "Robinson",
+    age: 46
+  };
+
+  // Step e: function named displayUser()
+  function displayUser() {
+    $("#fn").text(User.firstName);
+
+    // these 2 show the "table selector + find()" method
+    $("#users").find("#ln").text(User.lastName);
+    $("#users").find("#age").text(User.age);
+  }
+
+  // Step f: call displayUser() when the page is loaded
+  $(document).ready(displayUser);
+</script>
+
+</head>
+
+<body>
+
+  <h1>jQuery Table Example</h1>
+
+  <table id="users" width="50%" border="1">
+  <thead>
+    <tr>
+      <th width="33%">First Name</th>
+      <th width="33%">Last Name</th>
+      <th width="33%">Age</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr align="center">
+      <td id="fn"></td>
+      <td id="ln"></td>
+      <td id="age"></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+</html>
