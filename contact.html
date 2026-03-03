@@ -1,27 +1,29 @@
-I’ve got the fix for your contact.html. You currently have two different versions of Bootstrap (4.4 and 5.3) and two different versions of jQuery fighting each other in your code. This is definitely why the navbar keeps disappearing or breaking.
-
-To pass Activity 6, we need to stick strictly to Bootstrap 4.4 so your "Topic 6 Activities" dropdown works correctly.
-
-Updated contact.html with Pseudo-code
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | My Personal Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact a Professor</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Bootstrap 4.4 CSS (use ONLY this) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- Topic 7: load the copyright fragment script in the HEAD -->
+  <script src="js/copyright.js"></script>
 </head>
 
 <body>
 
+<!-- ✅ Use your same navbar (Bootstrap 4.4 compatible) -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html">CST-120</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -30,54 +32,87 @@ HTML
       <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
       <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
       <li class="nav-item"><a class="nav-link" href="faith.html">Faith</a></li>
-      
+
+      <!-- Topic 6 dropdown (Bootstrap 4.4) -->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
           Topic 6 Activities
         </a>
-        <div class="dropdown-menu">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="playjq1.html">jQuery Intro</a>
           <a class="dropdown-item" href="playjq2.html">jQuery Selectors</a>
           <a class="dropdown-item" href="playjq3.html">Dynamic Table</a>
           <a class="dropdown-item" href="playbs.html">Bootstrap Demo</a>
         </div>
       </li>
-      
-      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
     </ul>
   </div>
 </nav>
 
-<div class="container mt-4">
+<div class="container mt-4 text-center">
+  <h1>Contact a Professor</h1>
 
-    <h1 class="text-center">Contact Me</h1>
+  <!-- ✅ REQUIRED: POST form to postman-echo -->
+  <form method="POST" action="https://postman-echo.com/post" class="mt-4">
 
-    <div class="row justify-content-center mt-5">
-        <div class="col-md-8 text-center">
-            <p class="lead">
-                If you would like to reach out, you can contact me using the information below.
-            </p>
-
-            <ul class="list-group list-group-flush mb-4">
-                <li class="list-group-item">Email: yourname@email.com</li>
-                <li class="list-group-item">LinkedIn: linkedin.com/in/yourprofile</li>
-            </ul>
-
-            <a class="btn btn-primary btn-lg mt-2" href="mailto:yourname@email.com">Send an Email</a>
-        </div>
+    <div class="form-group row">
+      <label for="professor" class="col-sm-2 col-form-label">Professor</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="professor" name="professor" placeholder="Professor name" />
+      </div>
     </div>
 
-    <hr class="mt-5" />
+    <div class="form-group row">
+      <label for="college" class="col-sm-2 col-form-label">College</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="college" name="college" placeholder="College name" />
+      </div>
+    </div>
 
-    <footer class="text-center pb-4">
-      <p>&copy; 2026 Mike Robinson | CST-120 Personal Website</p>
-    </footer>
+    <div class="form-group row">
+      <label for="course" class="col-sm-2 col-form-label">Course</label>
+      <div class="col-sm-10">
+        <select class="form-control" id="course" name="course">
+          <option>CST-105: Computer Programming I</option>
+          <option selected>CST-120: Web Development</option>
+          <option>CST-150: Programming in C++</option>
+          <option>CST-221: Operating Systems Concepts</option>
+          <option>CST-239: Programming in Java</option>
+          <option>CST-250: Programming in C#</option>
+          <option>CST-323: Cloud Computing</option>
+        </select>
+      </div>
+    </div>
 
+    <div class="form-group row">
+      <label for="message" class="col-sm-2 col-form-label">Message</label>
+      <div class="col-sm-10">
+        <textarea class="form-control" id="message" name="message" rows="3"
+                  placeholder="Type your message..."></textarea>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+
+  </form>
+
+  <a href="index.html" class="d-block mt-3">Back to Main Page</a>
 </div>
 
+<!-- ✅ Bootstrap 4.4 scripts (REQUIRED order) -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- ✅ REQUIRED: div where the fragment loads (bottom of body) -->
+<div id="copyright"></div>
 
 </body>
 </html>

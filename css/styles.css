@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  padding-bottom: 70px; /* pushes page content above the fixed footer */
+}
+
 /* ===== Page Base ===== */
 body {
   margin-top: 20px;
@@ -154,3 +158,5 @@ table.matrix .total-row td {
 .center {
   text-align: center;
 }
+
+.dropdown-menu { z-index: 9999; }
